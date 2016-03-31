@@ -1,0 +1,6 @@
+/node_modules/
+/dist/
+*.log
+play.js
+*.sh
+test/*.apkg

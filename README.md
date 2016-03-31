@@ -13,7 +13,12 @@ $ npm install anki-apkg-export-cli -g
 ## Usage
 
 ```
-$ anki-apkg-export my-deck **/*.txt " - "
+$ anki-apkg-export
+
+  Usage
+    $ anki-apkg-export "<name>" "<glob>" "<delimeter>"
+  Examples
+    $ anki-apkg-export "my-deck" "**/*.txt" " - "
 ```
 
 ## Related

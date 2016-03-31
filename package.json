@@ -9,6 +9,7 @@
   "dependencies": {
     "anki-apkg-export": "^1.0.1",
     "expand-home-dir": "0.0.3",
+    "globby": "^4.0.0",
     "meow": "^3.7.0",
     "update-notifier": "^0.6.0"
   },

@@ -1,7 +1,7 @@
 {
   "name": "anki-apkg-export-cli",
   "description": "CLI for generating Anki's decks",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "bin": {
     "anki-apkg-export": "cli.js"

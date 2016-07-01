@@ -73,7 +73,7 @@ Example 1-2 - Example Translation 1-2
 Source 2 - Translation 2
 Example 2-1 - Example Translation 2-1
 
-$ anki-apkg-export *.txt
+$ anki-apkg-export *.txt --groups
 ```
 
 ### card 1:

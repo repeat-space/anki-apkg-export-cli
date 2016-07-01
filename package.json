@@ -8,15 +8,13 @@
   },
   "dependencies": {
     "anki-apkg-export": "^1.0.1",
-    "expand-home-dir": "0.0.3",
-    "globby": "^4.0.0",
     "meow": "^3.7.0",
     "update-notifier": "^0.6.0"
   },
   "devDependencies": {
     "ava": "^0.13.0",
-    "babel-eslint": "^5.0.0-beta9",
-    "eslint": "^1.10.3",
+    "babel-eslint": "^6.0.0",
+    "eslint": "^2.7.0",
     "husky": "^0.11.3"
   },
   "author": "ewnd9 <ewndnine@gmail.com>",
@@ -33,7 +31,7 @@
     "url": "git+https://github.com/ewnd9/anki-apkg-export-cli.git"
   },
   "scripts": {
-    "lint": "eslint src/*",
+    "lint": "eslint 'lib/**/*.js'",
     "prepush": "npm run lint && npm test",
     "start": "node cli.js",
     "test": "ava",
